@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Collatz Constant Script",
+            "type": "shell",
+            "command": "/Users/rudraneelsmacbookair/Collatz COnjecture/.venv/bin/python",
+            "args": ["collatz_constant.py"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
